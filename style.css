@@ -1,0 +1,237 @@
+body,html {
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x:  hidden;
+    overflow-x: hidden;
+}
+header {
+    position: fixed;
+    z-index: 1;
+} 
+
+
+#nav {
+    position: relative;
+    margin-left: 20px !important;
+    /* position: sticky !important; */
+}
+#nav1 {
+    position: relative;
+    margin-right:0px !important;
+    margin-left: 30px;
+    position: sticky !important;
+}
+#lin {
+    position: relative;
+    color: black !important;
+    text-decoration: underline !important;
+    font-size: 18px;
+}
+#num {
+    position: relative;
+    color: black;
+    text-decoration: none !important;
+    font-size: 18px;
+    margin-left: -12px;
+    
+    
+}
+/* a {
+    text-decoration: none !important;
+} */
+/* #search {
+    position: relative;
+    margin-left: 50px !important;
+    margin-right: -45px !important;
+}
+#web {
+    position: relative;
+    margin-left: 50px !important;
+}
+#login {
+    position: relative;
+    margin-right: 20px;
+} */
+#butt {
+    position: relative;
+    margin-right: 0px !important;
+    width: 200px !important;
+}
+#bg {
+    background-image: url(./images/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1 {
+    position: relative;
+    top: 70px;
+}
+.img2 {
+    position: relative;
+    top: 75px;
+    margin-left: 40px;
+}
+#container {
+    position: relative;
+    height: 70vh !important;
+    margin-top: 120px !important;
+}
+#text {
+    position: relative;
+    margin-top: 90px;
+    margin-left: 45px;
+}
+a {
+    color: black;
+}
+#whatsnew {
+    position: relative;
+    margin-top: 100px !important;
+    align-items:center !important;
+}
+.img3 {
+    position: relative;
+    margin-left: 400px;
+}
+.img4 { 
+    position: relative;
+    margin-left: 270px;
+
+}
+#title {
+    position: relative;
+    margin-left: 75px !important;
+}
+.break {
+    position: relative;
+    margin-left: 70px;
+}
+#link {
+    margin-left: 75px !important;
+    font-weight: 500;
+}
+#title2 {
+    position: relative;
+    margin-left: 123px !important;
+}
+#title3 {
+    position: relative;
+    margin-left: 120px !important;
+}
+#spend {
+    margin-left: 53px !important;
+}
+.break2 {
+    margin-left: 55px !important;
+}
+#link1 {
+    margin-left: 100px !important;
+    font-weight: 500;
+}
+#disc {
+    margin-left: 45px !important;
+}
+.break3 {
+    margin-left: 10px !important;
+}
+#link2 {
+    margin-left: 100px !important;
+    font-weight: 500;
+}
+#find {
+    position: relative;
+    margin-top: 80px;
+}
+.img5 {
+    position: relative;
+    margin-left: 400px;
+}
+#btnn {
+    position: relative;
+    margin-left: 630px;
+    
+}
+#btnn:hover{
+    border: 1px solid black !important;
+    background-color: rgb(120, 171, 190);
+    color: black !important;
+}
+#demo:hover {
+    border: 2px solid black !important;
+    background-color: rgb(120, 171, 190);
+    color: black !important;
+}
+#trial:hover {background-color: rgb(5, 5, 56);}
+
+#cart4 {
+    position: relative;
+    margin-left: 250px;
+}
+#cart3 {
+    position: relative;
+    margin-left: 250px;
+    top: -10px;
+}
+#cart2 {
+    position: relative;
+    margin-left: 250px;
+}
+#cart1 {
+    position: relative;
+    margin-left: 250px;
+}
+.text-dark {
+    font-size: 20px;
+    font-weight: 500;
+}
+.text {
+    /* border: 1px solid red; */
+    width: 10vw;
+    font-size: 19px;
+    font-weight: 500;
+}
+.sci {
+    position: relative;
+    margin-left: 30px !important;
+}
+.texxt {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.texxxt {
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+#texxxt {text-decoration: none;}
+#carts {
+    position: relative;
+    top: 35px;
+}
+#texxxt:hover {color: rgba(24, 86, 202, 0.815) !important;}
+
+ #background2 {
+    background-image: url(./images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30vh; 
+} 
+.skills {
+    position: relative;
+    margin-left: 345px;
+    top: -20px;
+}
+.h3h {
+    font-weight: 400 !important;
+    margin-left: 350px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.editme {
+    position: relative;
+    margin-left: 300px;
+    font-weight: 400;
+    
+}
