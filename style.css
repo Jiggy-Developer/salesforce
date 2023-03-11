@@ -152,16 +152,17 @@ a {
     
 }
 #btnn:hover{
-    border: 1px solid black !important;
+    border: 3px solid black !important;
     background-color: rgb(120, 171, 190);
     color: black !important;
 }
 #demo:hover {
-    border: 2px solid black !important;
+    border: 3px solid black !important;
     background-color: rgb(120, 171, 190);
     color: black !important;
 }
-#trial:hover {background-color: rgb(5, 5, 56);}
+#trial:hover {background-color: rgb(5, 5, 56);
+border: 3px solid rgb(5, 5, 56) !important;}
 
 #cart4 {
     position: relative;
@@ -233,5 +234,48 @@ a {
     position: relative;
     margin-left: 300px;
     font-weight: 400;
-    
-}
+    }
+    #compress {
+        position: relative;
+        width: 150px;
+        align-self: center !important;
+        top: 30px;
+    }
+    .borderr {
+        position: relative;
+        /* border: 2px solid black; */
+        height: 5vh;
+        width: 6vw;
+        top: 60px;
+        margin-left: 30px;
+        border-radius: 15px;
+        background-color: rgba(217, 235, 243, 0.968);
+    }
+    .module {
+        position: relative;
+        font-weight: 500;
+        margin-left: 17px;
+        top: 5px;
+    }
+    #compresss {
+        position: relative;
+        width: 150px;
+        align-self: center !important;
+        top: 30px;
+        margin-left: 150px;
+    }
+    #btnn2 {
+        position: relative;
+        margin-left: 690px;
+        top: 75px;
+        
+    }
+    #btnn2:hover{
+        border: 3px solid black !important;
+        background-color: rgb(120, 171, 190);
+        color: black !important;
+    }
+    #content {
+        position: relative;
+        margin-top: 160px;
+    }
