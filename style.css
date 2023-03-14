@@ -6,7 +6,7 @@ body,html {
 }
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 10;
 } 
 
 
@@ -20,19 +20,27 @@ header {
     margin-right:0px !important;
     margin-left: 30px;
     position: sticky !important;
+    /* border: 1px solid red; */
+    min-width: 110%;
+    z-index: 1;
 }
 #lin {
     position: relative;
     color: black !important;
     text-decoration: underline !important;
     font-size: 18px;
+    left: 30px;
+    
 }
 #num {
     position: relative;
     color: black;
-    text-decoration: none !important;
-    font-size: 18px;
-    margin-left: -12px;
+    font-size: 15px;
+    left: 25px;
+    /* border: 1px solid red;
+    border-width: 15px !important; */
+    font-weight: 500;
+
     
     
 }
@@ -56,11 +64,14 @@ header {
     position: relative;
     margin-right: 0px !important;
     width: 200px !important;
+    left: 80px;
 }
 #bg {
     background-image: url(./images/bg.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    left: 100px;
 }
 .img1 {
     position: relative;
@@ -70,6 +81,7 @@ header {
     position: relative;
     top: 75px;
     margin-left: 40px;
+    z-index: 1;
 }
 #container {
     position: relative;
@@ -149,12 +161,22 @@ a {
 #btnn {
     position: relative;
     margin-left: 630px;
+    border: 3px solid rgb(21, 116, 217) !important;
+    color: rgb(21, 116, 217) !important;
     
 }
 #btnn:hover{
     border: 3px solid black !important;
     background-color: rgb(120, 171, 190);
     color: black !important;
+}
+#demo {
+    border: 3px solid rgb(21, 116, 217) !important;
+        color: rgb(21, 116, 217);
+}
+#trial {
+    border: 3px solid rgb(21, 116, 217) !important;
+    background-color: rgb(21, 116, 217);
 }
 #demo:hover {
     border: 3px solid black !important;
@@ -268,6 +290,8 @@ border: 3px solid rgb(5, 5, 56) !important;}
         position: relative;
         margin-left: 690px;
         top: 75px;
+        border: 3px solid rgb(21, 116, 217) !important;
+        color: rgb(21, 116, 217);
         
     }
     #btnn2:hover{
@@ -279,3 +303,46 @@ border: 3px solid rgb(5, 5, 56) !important;}
         position: relative;
         margin-top: 160px;
     }
+    #login {
+        position: relative;
+        left: 70px;
+    }
+    #web {
+        position: relative;
+        left: 60px;
+    }
+    #search {
+        position: relative;
+        left: 60px;
+    }
+    #baby {
+        border-radius: 15px !important;
+    }
+    .CRM {
+        position: relative;
+        font-size: 24px;
+        font-weight: 400;
+        top: 60px;
+        left: 20px;
+    }
+    #demo2 {
+        position: relative;
+        top: 60px;
+        border: 3px solid rgb(21, 116, 217) !important;
+        color: rgb(21, 116, 217);
+        left: 20px;
+    }
+    #demo2:hover {
+        border: 3px solid black !important;
+        background-color: rgb(120, 171, 190);
+        color: black !important;
+    }
+    #crmimage {
+        position: relative;
+        top: 30px;
+        /* left: -20px; */
+    }
+    /* .crmb {
+        position: relative;
+        z-index: 15 !important;
+    } */
