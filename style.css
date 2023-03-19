@@ -342,7 +342,202 @@ border: 3px solid rgb(5, 5, 56) !important;}
         top: 30px;
         /* left: -20px; */
     }
-    /* .crmb {
+    
+    #backgroundd {
         position: relative;
-        z-index: 15 !important;
-    } */
+        top: -180px;
+        height: 60vh;
+        background-image: url(./images/card\ background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -10;
+    }
+    #onbackground {
+        position: relative;
+        top: 80px;
+    }
+#ctitle {
+    font-size: 24px;
+}
+#ctitle:hover {
+    color:  rgb(53, 169, 211);
+    cursor: pointer;
+}
+.borderrr {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 4vh;
+    width: 6vw;
+    top: 40px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgba(217, 235, 243, 0.968);
+}
+.long-border {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 4vh;
+    width: 8rem;
+    top: 40px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgba(217, 235, 243, 0.968);
+}
+#inspire {
+    position: relative;
+    top: -95px;
+}
+.img6 {
+    position: relative;
+    left: 375px;
+}
+.long-border2 {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 4vh;
+    width: 10rem;
+    top: 40px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgba(217, 235, 243, 0.968);
+}
+#ctitles {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(11, 11, 76) !important;
+}
+#ctitles:hover{
+    cursor: pointer;
+}
+#down {
+    position: relative;
+    top: 30px;
+}
+#meett {
+    position: relative;
+    top: 160px;
+}
+#undermeet {
+    position: relative;
+    top: 140px;
+}
+#tnone {
+    position: relative;
+    text-decoration: none;
+    top: -25px;
+
+}
+
+.borderr2 {
+    position: relative;
+    /* border: 2px solid black; */
+    height: 5vh;
+    width: 5vw;
+    top: 28px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgba(164, 206, 224, 0.968);
+}
+#Groupnext {
+    position: relative;
+    top: -30px;
+}
+#Groupnext:hover{cursor: pointer;}
+
+#btnn5 {
+    position: relative;
+    left: 550px;
+    border: 3px solid rgb(21, 116, 217) !important;
+    color: rgb(21, 116, 217) !important;
+    }
+#btnn5:hover{
+    border: 3px solid black !important;
+    background-color: rgb(189, 213, 223);
+    color: black !important;
+}
+#btndiv {
+    position: relative;
+    top: 230px;
+    bottom: 100px;
+}
+#appsdiv {
+    position: relative;
+    top: 320px;
+}
+#bigbaby {
+    position: relative;
+    left: 60px;
+}
+#apps {
+    position: relative;
+    top: 180px;
+    left: 20px;
+}
+#appswords {
+    position: relative;
+    top: 200px;
+    font-size: 23px;
+    left: 40px;
+}
+#btnapps {
+    position: relative;
+    top: 210px;
+}
+#btnn6 {
+    position: relative;
+    /* top: 140px; */
+    left: 35px;
+    border: 3px solid rgb(21, 116, 217) !important;
+    color: rgb(21, 116, 217) !important;
+    }
+#btnn6:hover{
+    border: 3px solid black !important;
+    background-color: rgb(189, 213, 223);
+    color: black !important;
+}
+#install {
+    position: relative;
+    top: 28rem;
+    left: 25rem; 
+    
+}
+#trial2 {
+    border: 3px solid rgb(21, 116, 217) !important;
+    background-color: rgb(21, 116, 217);
+    position: relative;
+    top: 27rem;
+    left: 43rem;
+}
+#trial2:hover {background-color: rgb(5, 5, 56);
+    border: 3px solid rgb(5, 5, 56) !important;}
+
+#chart {
+    position: relative;
+    top: 30rem;
+    left: 15rem;
+}
+#lastcol {
+    position: relative;
+    top: 35rem;
+    /* border: 2px solid rgba(0, 0, 0, 0.119) !important; */
+    border-radius: 10px;
+    box-shadow: -1px -1px 3px 3px rgba(0, 0, 0, 0.023);
+}
+#heart {
+    position: relative;
+}
+#inbox {
+    position: relative;
+    top: 90px;
+}
+#sign {
+    border: 3px solid rgb(21, 116, 217) !important;
+    background-color: rgb(21, 116, 217);
+    position: relative;
+    top: 5rem;
+    left: -3rem;
+}
+#sign:hover {background-color: rgb(5, 5, 56);
+    border: 3px solid rgb(5, 5, 56) !important;}
+    
+
