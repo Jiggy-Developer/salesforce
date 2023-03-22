@@ -2,7 +2,7 @@ body,html {
     margin: 0px !important;
     padding: 0px !important;
     overflow-x:  hidden;
-    overflow-x: hidden;
+    overflow-y: scroll;
 }
 header {
     position: fixed;
@@ -521,7 +521,7 @@ border: 3px solid rgb(5, 5, 56) !important;}
     top: 35rem;
     /* border: 2px solid rgba(0, 0, 0, 0.119) !important; */
     border-radius: 10px;
-    box-shadow: -1px -1px 3px 3px rgba(0, 0, 0, 0.023);
+    box-shadow: 5px 7px 20px -7px #00000069;
 }
 #heart {
     position: relative;
@@ -539,5 +539,112 @@ border: 3px solid rgb(5, 5, 56) !important;}
 }
 #sign:hover {background-color: rgb(5, 5, 56);
     border: 3px solid rgb(5, 5, 56) !important;}
+
+#lastFluid {
+    position: relative;
+    top: 45rem;
+}
+ul {
+    list-style: none;
+    line-height: 40px;
+    color: rgb(21, 116, 217);
+}
+ul:hover{
+    cursor: pointer;
+}
+#lists {
+    position: relative;
+    left: 25px;
+    color: rgba(0, 0, 0, 0.779);
+}
+.imagediv {
+    position: relative;
+    top: 5rem;
+    gap: 10px;
+}
+#forceee{
+    position: relative;
+    top: 10px;
+}
+.call {
+    position: relative;
+    top: 8rem;
+}
+#imgs:hover {
+    cursor: pointer;
+}
+#End {
+    position: relative;
+    height: 22vh;
+    background-color: rgb(3, 46, 97);
+    top: 47rem;
+}
+#Languages {
+    position: relative; 
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 19px;
+    border: 2px solid #fff;
+    background-color: rgb(3, 46, 97);
+    color: #fff;
+    border-radius: 10px;
+    
+
+}
+#webbb {
+    position: relative;
+    left: 42px;
+    z-index: 1;
+    top: -5px;
+}
+
+#col {
+    position: relative;
+    top: 1rem;
+    left: 13rem;
+}
+#col7 {
+position: relative;
+left: 4rem;
+top: 1rem;
+}
+#lastLinks {
+    position: relative;
+    color: rgb(21, 116, 217);
+}
+.anchs2 {
+    position: relative; 
+    left: 1rem;}
+.anchs3 {position: relative;
+    left: 2rem;}
+.anchs4 {
+    position: relative;
+    left: 3rem;
+}
+.anchs5 {
+    position: relative;
+    left: 4rem;
+}
+.anchs6 {
+    position: relative;
+    left: 5rem;
+}
+.anchs7 {
+    position: relative;
+    left: 6rem;
+}
+#all {
+    color: rgb(21, 116, 217);
+}
+.lastpara {
+    color: #fff
+}
+#all:hover {
+    color: #fff;
+}
+
+
     
 
