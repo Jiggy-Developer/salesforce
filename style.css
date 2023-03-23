@@ -1,14 +1,19 @@
+/* *{
+    border: 2px  solid red !important;
+} */
 body,html {
     margin: 0px !important;
     padding: 0px !important;
-    overflow-x:  hidden;
-    overflow-y: scroll;
+    /* overflow-x:  hidden;  */
+    /* overflow-y: auto; */
 }
 header {
-    position: fixed;
+    position: fixed; 
     z-index: 10;
 } 
-
+/* div{
+    border: 2px solid red !important; 
+} */
 
 #nav {
     position: relative;
@@ -19,10 +24,11 @@ header {
     position: relative;
     margin-right:0px !important;
     margin-left: 30px;
-    position: sticky !important;
+     position: fixed !important; 
     /* border: 1px solid red; */
     min-width: 110%;
     z-index: 1;
+    top: -1rem;
 }
 #lin {
     position: relative;
@@ -72,6 +78,8 @@ header {
     background-size: cover;
     position: relative;
     left: 100px;
+    width: 25rem;
+    max-width: fit-content;
 }
 .img1 {
     position: relative;
@@ -86,7 +94,9 @@ header {
 #container {
     position: relative;
     height: 70vh !important;
-    margin-top: 120px !important;
+    margin-top: 110px !important;
+    max-width: fit-content;
+    
 }
 #text {
     position: relative;
@@ -477,7 +487,8 @@ border: 3px solid rgb(5, 5, 56) !important;}
     position: relative;
     top: 200px;
     font-size: 23px;
-    left: 40px;
+    left: 15px;
+    max-width: fit-content;
 }
 #btnapps {
     position: relative;
@@ -498,7 +509,8 @@ border: 3px solid rgb(5, 5, 56) !important;}
 #install {
     position: relative;
     top: 28rem;
-    left: 25rem; 
+    left: 3rem;
+    width: 50%; 
     
 }
 #trial2 {

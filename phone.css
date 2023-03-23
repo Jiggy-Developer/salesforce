@@ -1,0 +1,86 @@
+@media screen and (max-width: 700px){
+    body{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #nav1 {
+        display: none;
+    }
+    img{width: 100%;}
+    #firstRow {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        top: 23rem;
+        left: -3rem; 
+    }
+    #firstrowlast{
+        position: relative;
+        left: 2rem;
+    }
+    .img1 {
+        position: relative;
+        width: 22rem;
+        left: -9rem;
+        height: 20rem;
+        top: -3rem !important;
+    }
+    .img3 {
+        position: relative;
+        top: 27rem;
+        width: 100%;
+        left: -10rem;
+    }
+    #whatsnew {
+        position: relative;
+        width: 100%;
+        align-items: start;
+        left: -16rem;
+    }
+    #secondRow {
+        position: relative;
+        top: 23rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+    #trial {
+        position: relative;
+        width: 100%;
+        left: -3rem;
+        top: -2rem;
+        min-width: max-content;
+    }
+    #demo{
+        position: relative;
+        top: -4rem;
+        width: 100%;
+        min-width: max-content;
+    }
+    #text {
+        text-align: justify;
+        border: 2px solid red;
+        font-size: 12px;
+        min-width: 150%;
+    }
+    #learn {
+        position: relative;
+        top: 23rem;
+        width: 100%;
+        left: -17rem;
+    }
+    #findd {
+        position: relative;
+        top: 18rem;
+        left: -28rem;
+        width: 100%;
+    }
+    #offertext {
+        position: relative;
+        top: 20rem;
+        left: -15rem;
+    }
+}
