@@ -13,7 +13,7 @@
         flex-direction: column;
         width: 100%;
         gap: 2rem;
-        top: 23rem;
+        top: 13rem;
         left: -3rem; 
     }
     #firstrowlast{
@@ -22,10 +22,14 @@
     }
     .img1 {
         position: relative;
-        width: 22rem;
+        width: 20rem;
         left: -9rem;
         height: 20rem;
         top: -3rem !important;
+    }
+    #bg {
+        position: relative;
+        width: 22rem;
     }
     .img3 {
         position: relative;
@@ -38,10 +42,11 @@
         width: 100%;
         align-items: start;
         left: -16rem;
+        top: -12rem;
     }
     #secondRow {
         position: relative;
-        top: 23rem;
+        top: 15rem;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -62,25 +67,109 @@
     }
     #text {
         text-align: justify;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         font-size: 12px;
         min-width: 150%;
+        position: relative;
+        left: -2rem;
     }
     #learn {
         position: relative;
-        top: 23rem;
+        top: 13rem;
         width: 100%;
         left: -17rem;
     }
     #findd {
         position: relative;
-        top: 18rem;
+        top: 13rem;
         left: -28rem;
         width: 100%;
     }
     #offertext {
         position: relative;
-        top: 20rem;
+        top: 14rem;
+        left: -17rem;
+        /* border: 2px solid red; */
+        font-size: 7px !important;
+    }
+    #h4{font-size: 13px !important;}
+    #h42{margin-left: -100px !important;}
+
+    #btnn {
+        position: relative;
+        top: 12rem;
+        width: 100%;
+        min-width: max-content;
+        padding: 3px 1px 3px 1px !important;
+    } 
+    #throw{
+        position: relative; 
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        top: 8rem;
         left: -15rem;
+    } 
+    #thirdlast {
+        position: relative;
+        top: -4rem;
+    }
+    #background2{
+        position: relative;
+        top: 1rem;
+        width: 24rem;
+        left: rem;
+        /* min-width: max-content;  */
+    }
+    #health{
+        width: 100%;
+    }
+    .sci{position: relative;
+    top: -27px;
+    left: 4px;}
+    #skill{
+        position: relative;
+        left: -21rem;
+        width: 100%;
+        min-width: min-content;
+        top: -10rem;
+    }
+    #skilltext{
+        position: relative;
+        left: -21rem;
+        padding: 0px;
+        width: 100%;
+        top: -9rem;
+    }
+    #skillT {
+        font-size: 15px;
+        padding: 0px;
+        width: fit-content;
+        /* word-break: break-all; */
+    }
+    #editme {
+        position: relative;
+        padding: 0%;
+        left: -6.8rem;
+        width: 50%;
+        top: -2.3rem;
+        /* border: 2px solid red; */
+       /* float: right; */
+       display: inline-block;
+    }
+    #fourthrow {
+        position: relative;
+        top: -13rem;
+        left: -3rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+        min-width: fit-content;
+    }
+    .borderr{
+        width: 100%;
+        min-width: max-content;
     }
 }
+
