@@ -89,10 +89,14 @@
         position: relative;
         top: 14rem;
         left: -17rem;
+        width: fit-content;
+        padding: 0px;
         /* border: 2px solid red; */
-        font-size: 7px !important;
+        font-size: 7px;
     }
-    #h4{font-size: 13px !important;}
+    #h4{font-size: 13px !important;
+    width: fit-content !important;
+display: inline-block;}
     #h42{margin-left: -100px !important;}
 
     #btnn {
@@ -171,5 +175,49 @@
         width: 100%;
         min-width: max-content;
     }
+    #btnn2 {
+        position: relative;
+        left: -43rem;
+        width: 100%;
+        min-width: max-content;
+        top: -14rem !important;
+}
+#contentImg{
+    position: relative;
+    left: -28rem;
+    width: 100%;
+    top: -22rem;
+}
+#fifthRow{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#CRM {
+    position: relative;
+    width: 70%;
+    left: -2rem;
+    top: -23rem;
+    width: fit-content !important;
+    padding: 0px;
+    font-size: 20px;
+    
+    
+}
+#crmimage{
+    position: relative;
+    width: 100%;
+    min-width: 10rem;
+    top: -25rem !important;
+    left: 3rem;
+}
+#demo2 {
+    position: relative;
+    width: 100%;
+    min-width: max-content;
+    left: -2rem !important;
+    top: -25rem !important;
+
+}
 }
 
